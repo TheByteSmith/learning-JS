@@ -1,4 +1,4 @@
-// quiz 1
+// quiz 1 : for loop and break
 let teas = ["green tea", "black tea", "chai", "oolong tea"];
 let selectedTeas = [];
 for (let i = 0; i < teas.length; i++) {
@@ -9,7 +9,7 @@ for (let i = 0; i < teas.length; i++) {
 }
 // console.log(selectedTeas)
 
-// quiz 2
+// quiz 2 : for loop and continue
 let cities = ["London", "New York", "Paris", "Berlin"];
 let visitedCities = [];
 for (let i = 0; i < cities.length; i++) {
@@ -20,7 +20,7 @@ for (let i = 0; i < cities.length; i++) {
 }
 // console.log(visitedCities)
 
-// quiz 3
+// quiz 3 : for...of loop and break
 let numbers = [1, 2, 3, 4, 5];
 let smallNumbers = [];
 for (const num of numbers) {
@@ -31,7 +31,7 @@ for (const num of numbers) {
 }
 // console.log(smallNumbers)
 
-// quiz 4
+// quiz 4 : for.... of loop and continue
 let teaTypes = ["chai", "green tea", "herbal tea", "black tea"];
 let prefferedTeas = [];
 for (const tea of teaTypes) {
@@ -42,7 +42,7 @@ for (const tea of teaTypes) {
 }
 // console.log(prefferedTeas);
 
-// quiz 5
+// quiz 5: for...in and break
 let citiesPopulation = {
   London: 8900000,
   "New York": 8400000,
@@ -59,7 +59,7 @@ for (const city in citiesPopulation) {
 }
 // console.log(newCitiesPopulation);
 
-// quiz 6
+// quiz 6 : for...in and continue
 let allCities = {
   Sydney: 5000000,
   Tokyo: 9000000,
@@ -75,7 +75,7 @@ for (const city in allCities) {
 }
 // console.log(largeCities)
 
-// quiz 7
+// quiz 7 : forEach method
 let allTeas = ["earl grey", "green tea", "chai", "oolong tea"];
 let availableTeas = [];
 allTeas.forEach((tea) => {
@@ -86,7 +86,7 @@ allTeas.forEach((tea) => {
 });
 // console.log(availableTeas)
 
-// quiz 8
+// quiz 8 : forEach method
 let worldCities = ["Berlin", "Tokyo", "Sydney", "Paris"];
 let travelledCities = [];
 
@@ -98,7 +98,7 @@ worldCities.forEach((city) => {
 });
 // console.log(travelledCities)
 
-// quiz 9
+// quiz 9 : Array Transformation and continue
 let newNumber = [2, 5, 7, 9];
 let doubledNumbers = [];
 for (let i = 0; i < newNumber.length; i++) {
@@ -109,7 +109,7 @@ for (let i = 0; i < newNumber.length; i++) {
 }
 // console.log(doubledNumbers)
 
-// quiz 10
+// quiz 10 : for...of and break
 let moreTeas = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"]
 let shortTeas = []
 for(const tea of moreTeas){

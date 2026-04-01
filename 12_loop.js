@@ -17,14 +17,14 @@ while (j != 0) {
 console.log(countdown);
 
 // quiz 3
-/* let teaCollection = []
+let teaCollection = []
 let tea;
 do {
   tea = prompt(`Enter your favorite tea (type "stop" to finish)`);
   if (tea !== "stop") {
     teaCollection.push(tea)
   }
-} while (tea !== "stop"); */
+} while (tea !== "stop");
 
 // quiz 4
 k = 1;
